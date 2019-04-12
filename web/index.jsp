@@ -25,5 +25,20 @@
     <input type="submit" value="Converter">
 
   </form>
+  <br/>
+  <form method="post" action="converter.jsp">
+    Rate:
+    <br>
+    <label>
+      <input name="rate" type="number" value="22000">
+    </label>
+    <br>
+    USD:
+    <br>
+    <input name="input" type="number" placeholder="Enter USD">
+    <br>
+    <input type="submit" value="Converter">
+
+  </form>
   </body>
 </html>
